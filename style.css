@@ -4,4 +4,28 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.text_primary{
+    color: #FD6E0A;
+}
+
 /* Header and navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav_title {
+    font-weight: 800;
+    font-size: 45px;
+}
