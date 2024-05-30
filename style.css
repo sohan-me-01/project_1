@@ -30,6 +30,10 @@
     margin-left: 10px;
 }
 
+i {
+    color: #FD6E0A;
+}
+
 .header {
     background-color: #fff8f2;
     background-image: url(./images/header_bg.png), url(./images/developer.png);
@@ -176,12 +180,117 @@ main {
 }
 
 .skill {
-    /* width: 267px;
-    height: 320px; */
+    width: 267px;
+    height: 320px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     /* padding: 151px 33px 30px 33px ; */
     padding: 30px;
 
+}
+
+/* Rusume section style  */
+
+.resume-container {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #D1D1D1
+}
+
+.resume-main-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.resume-box-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-box-sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 27px;
+}
+
+.resume-box-desc {
+    color: #757575;
+    line-height: 28px;
+    /* font-size: 16px; */
+}
+
+.btn-line {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 69px;
+}
+
+
+/* footer and contact section  */
+
+.contact .section-title {
+    text-align: left;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 200px;
+}
+
+.section-contact-desc {
+    color: #474747;
+
+}
+
+.contact input, textarea {
+    margin-bottom: 24px;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px 18px;
+}
+
+/* textarea {
+    border: 0;
+} */
+
+input {
+    width: 100%;
+    height: 44px;
+}
+
+textarea {
+    width: 461px;
+    height: 180px;
+    resize: none;
+    border-radius: 5px;
+    background-color: #fff;
+} 
+
+.icon {
+    margin-top: 30px;
+}
+
+.icon i {
+    margin-right: 24px;
 }
